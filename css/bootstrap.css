@@ -235,7 +235,7 @@ th {
     background: #fff !important;
   }
   .navbar {
-    display: none;
+    display: block;
   }
   .table td,
   .table th {
@@ -3640,6 +3640,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   border-top-right-radius: 0;
 }
 .navbar {
+  background: #2C3E50;
   position: relative;
   min-height: 50px;
   margin-bottom: 20px;
@@ -3706,7 +3707,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-static-top {
-  z-index: 1000;
+  position:absolute;
+  z-index: 1030;
   border-width: 0 0 1px;
 }
 @media (min-width: 768px) {
@@ -3737,6 +3739,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   border-width: 1px 0 0;
 }
 .navbar-brand {
+  color: white;
   float: left;
   height: 50px;
   padding: 15px 15px;
@@ -3745,7 +3748,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-brand:hover,
 .navbar-brand:focus {
-  text-decoration: none;
+  color: white;
 }
 @media (min-width: 768px) {
   .navbar > .container .navbar-brand,
@@ -3754,6 +3757,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-toggle {
+  color: white;
   position: relative;
   float: right;
   padding: 9px 10px;
@@ -3786,30 +3790,33 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   margin: 7.5px -15px;
 }
 .navbar-nav > li > a {
+  color: white;
   padding-top: 10px;
   padding-bottom: 10px;
   line-height: 20px;
 }
 @media (max-width: 767px) {
   .navbar-nav .open .dropdown-menu {
+    color: white;
     position: static;
     float: none;
     width: auto;
     margin-top: 0;
-    background-color: transparent;
     border: 0;
     box-shadow: none;
   }
   .navbar-nav .open .dropdown-menu > li > a,
   .navbar-nav .open .dropdown-menu .dropdown-header {
+    color: white;
     padding: 5px 15px 5px 25px;
   }
   .navbar-nav .open .dropdown-menu > li > a {
+    color: white;
     line-height: 20px;
   }
   .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-nav .open .dropdown-menu > li > a:focus {
-    background-image: none;
+    color: white;
   }
 }
 @media (min-width: 768px) {
@@ -3821,6 +3828,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     float: left;
   }
   .navbar-nav > li > a {
+    color: white;
     padding-top: 15px;
     padding-bottom: 15px;
   }

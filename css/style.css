@@ -125,6 +125,7 @@ a.boxclose{
 	min-height:750px;
 }
 .banner-info{
+	padding-top:10%;
 width:65%;
 margin: 141px auto 0 auto;
 }
@@ -166,8 +167,9 @@ float:right;
 }
 /*--//banner--*/
 /*--about--*/
+
 .about{
-padding:60px 0 25px 0;
+padding:130px 0 25px 0;
 min-height: 659px;
 }
 
@@ -429,7 +431,7 @@ border-bottom: 2px solid #c3c3c3;
 /*--services--*/
 .services{
 	background-color: #cccccc;
-  padding: 60px 0;
+  padding: 130px 0;
 	min-height: 659px;
 }
 .ser-info h3{
@@ -487,16 +489,14 @@ font-weight:700;
 }
 /*--//services--*/
 /*--portfolio--*/
+.portfolio{
+	padding: 120px 0px;
+}
 .gallery-section{
 background: url(../images/port-back.jpg) no-repeat 0px 0px;
-	background-size: cover;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
 	text-align: center;
-	min-height:659;
-
 }
+
 #portfolio p {
   font-family: 'Lato', sans-serif;
   line-height: 1.8em;
@@ -576,7 +576,7 @@ font-weight:700;
 /*--//portfolio--*/
 /*--process--*/
 .process{
-  padding: 30px 0 65px 0;
+  padding: 100px 0 65px 0;
 	min-height: 659px;
 }
 .process-gird{
@@ -1780,7 +1780,7 @@ border:none;
 	  min-height: 78px;
 	}
 	.gallery-section {
-	  min-height: 900px;
+	  min-height: 800px;
 	  padding: 60px 0 0px 0;
 	}
 	.services-back {
@@ -1836,7 +1836,7 @@ border:none;
 	  min-height: 66px;
 	}
 	.gallery-section {
-	  min-height: 1294px;
+	  min-height: 694px;
 	  }
 	.process-back {
 	  min-height: 69px;
@@ -1943,6 +1943,7 @@ border:none;
 	}
 	.banner-info {
 	  width: 78%;
+
 	  margin: 100px auto 0 auto;
 	}
 	.banner-right h1 {
@@ -2086,7 +2087,7 @@ border:none;
 	  font-size: 16px;
 	  }
 	.gallery-section {
-	  min-height: 1068px;
+	  min-height: 100px;
 	}
 	.process h3 {
 	  font-size: 32px;
@@ -2115,7 +2116,7 @@ border:none;
 	  padding: 45px 0;
 	}
 	.process {
-	  padding: 45px 0;
+	  padding: 100px 0;
 	}
 	.testimonials {
 	  padding: 45px 0;
@@ -2453,6 +2454,7 @@ border:none;
 	}
 	.gallery-section {
 	  padding: 68px 0 0px 0;
+		min-height: 1000px;
 	}
 	.gallery-section h3 {
 	  font-size: 30px;
@@ -2498,7 +2500,7 @@ border:none;
 	  min-height: 42px;
 	}
 	.process {
-	  padding: 40px 0;
+	  padding: 100px 0;
 	}
 	.testimonials {
 	  padding: 40px 0;
@@ -2698,7 +2700,7 @@ border:none;
 	margin-bottom:30px;
 	}
 	.gallery-section {
-	  min-height: 805px;
+	  min-height: 680px;
 	}
 	.process-gird {
 	  height: 134px;
@@ -2910,6 +2912,7 @@ border:none;
 	}
 	.banner-info {
 	  width: 100%;
+		padding-top:20%;
 	}
 	.banner-left {
 	  float: left;
@@ -2931,6 +2934,9 @@ border:none;
 	}
 	.banner {
 	  min-height: 352px;
+	}
+	.about {
+		padding: 120px 0px;
 	}
 	.about h3 {
 	  letter-spacing: 11px;
@@ -3076,6 +3082,10 @@ border:none;
 	.work-grid-info p {
 	  font-size: 13px;
 	}
+	.services{
+		padding: 120px 0px;
+	}
+
 	.services-back {
 	  min-height: 24px;
 	}
@@ -3086,7 +3096,7 @@ border:none;
 	  font-size: 13px;
 	}
 	.gallery-section {
-	  padding: 54px 0 0px 0;
+	  padding: 120px 0 0px 0;
 	}
 	#portfolio p {
 	  font-size: 13px;
@@ -3095,9 +3105,7 @@ border:none;
 	  float: left;
 	  width: 50%;
 	}
-	.gallery-section {
-	  min-height: 1073px;
-	}
+
 	.textbox h4 {
 	  font-size: 16px;
 	  }
@@ -3300,6 +3308,7 @@ border:none;
   margin: 8px 0 8px 0;
 }
 .banner-info {
+	padding-top:20%;
   margin: 38px auto 0 auto;
 }
 .banner {
@@ -3340,9 +3349,7 @@ border:none;
 .textbox h4 {
   margin-top: 22px;
 }
-.gallery-section {
-  min-height: 904px;
-}
+
 .process-pad {
   width: 50% !important;
   float: left;

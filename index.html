@@ -23,80 +23,41 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<!-- //for-mobile-apps -->
 	<!-- js -->
 		<script type="text/javascript" src="js/jquery.min.js"></script>
-	<!-- js -->
-	<!-- start-smooth-scrolling -->
-		<script type="text/javascript" src="js/move-top.js"></script>
-		<script type="text/javascript" src="js/easing.js"></script>
-		<script type="text/javascript">
-			jQuery(document).ready(function($) {
-				$(".scroll").click(function(event){
-					event.preventDefault();
-					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
-				});
-			});
-		</script>
-	<!-- start-smooth-scrolling -->
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
 
 </head>
 <body>
 <!-- banner -->
 <div class="banner" id="home">
 	<div class="container">
-		<div class="top-header row">
-			<script src="js/classie.js"></script>
-			<!--top-nav---->
+		<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavBar">
+                    Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#">
+                    <i class="fa fa-code"></i> José 'Jeoxs' Aponte
+                </a>
+            </div>
 
-			<div class="top-nav">
-				<div class="nav-icon">
-					    <a href="#" class="right_bt" id="activator"><span> </span> </a>
-				</div>
-				<div class="box" id="box">
-					<div class="box_content">
-						<div class="box_content_center">
-							<div class="form_content">
-								<div class="menu_box_list">
-									<ul>
-										<li><a class="scroll" href="#home"><span>Inicio</span></a></li>
-										<li><a class="scroll" href="#about"><span>Sobre Mí</span></a></li>
-										<li><a class="scroll" href="#my-skills"><span>Mis Habilidades</span></a></li>
-										<li><a class="scroll" href="#services"><span>Servicios</span></a></li>
-										<li><a class="scroll" href="#portfolio"><span>Portafolio</span></a></li>
-										<li><a class="scroll" href="#contact"><span>Contacto</span></a></li>
-										<div class="clearfix"> </div>
-									</ul>
-								</div>
-								<a class="boxclose" id="boxclose"> <span> </span></a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!---start-click-drop-down-menu----->
-			        <!---start-dropdown--->
-			         <script type="text/javascript">
-						var $ = jQuery.noConflict();
-							$(function() {
-								$('#activator').click(function(){
-									$('#box').animate({'top':'0px'},900);
-								});
-								$('#boxclose').click(function(){
-								$('#box').animate({'top':'-1000px'},900);
-								});
-							});
-							$(document).ready(function(){
-							//Hide (Collapse) the toggle containers on load
-							$(".toggle_container").hide();
-							//Switch the "Open" and "Close" state per click then slide up/down (depending on open/close state)
-							$(".trigger").click(function(){
-								$(this).toggleClass("active").next().slideToggle("slow");
-									return false; //Prevent the browser jump to the link anchor
-							});
-
-						});
-					</script>
-			<!---//End-click-drop-down-menu----->
-			<div class="clearfix"> </div>
-		</div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse" id="myNavBar">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden"> <a href="#page-top"></a></li>
+                    <li><a class="page-scroll" href="#about">Sobre Mí</a></li>
+                    <li><a class="page-scroll" href="#services">Servicios</a></li>
+                    <li><a class="page-scroll" href="#portfolio">Mi Trabajo</a></li>
+										<li><a class="page-scroll" href="#process">Flujo</a></li>
+										<li><a class="page-scroll" href="#contact">Contacto</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
 		<div class="banner-info">
 			<div class="banner-left">
 
@@ -337,9 +298,16 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				};
 			*/
 
-			$().UItoTop({ easingType: 'easeOutQuart' });
+			$(function(){
+					var navMain = $("#myNavBar");
+					navMain.on("click", "a", null, function () {
+						navMain.collapse('hide');
+					});
 
 			});
+
+
+});
 	</script>
 <!-- //here ends scrolling icon -->
 </body>
