@@ -229,7 +229,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <div class="process text-center" id="process">
 	<div class="container-fluid">
 		<h3>Flujo de Trabajo</h3>
-		<div class="strip text-center"><img src="images/pro.png" alt=" "/></div>
+		<div class="strip text-center"><img src="images/pro-black.png" alt=" "/></div>
 		<div class="process-girds">
 			<div class="col-md-2 process-pad">
 			<div class="process-gird">
@@ -302,10 +302,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<div class="col-md-7 contact-right">
 				<h3>Déjame un Mensaje</h3>
 				<div class="stripb"></div>
-				<form>
-					<input type="text" value="Nombre" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Nombre';}" required="">
-					<input type="text" value="E-mail" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'E-mail';}" required="">
-					<textarea type="text" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Mensaje';}" required="">Mensaje</textarea>
+				<form action="https://formspree.io/jeygi9@gmail.com" method="POST">
+					<input type="text" name="nombre" value="Nombre" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Nombre';}" required="">
+					<input type="text" name="correo" value="E-mail" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'E-mail';}" required="">
+					<textarea type="text" name="mensaje" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Mensaje';}" required="">Mensaje</textarea>
 					<button type="submit" class="btn btn-success">
 						<i class="fa fa-envelope-o" aria-hidden="true"></i> Enviar
 					</button>
