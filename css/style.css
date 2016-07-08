@@ -428,6 +428,7 @@ border-bottom: 2px solid #c3c3c3;
 /*--//work--*/
 /*--services--*/
 .services{
+	background-color: #cccccc;
   padding: 60px 0;
 	min-height: 659px;
 }
@@ -575,7 +576,6 @@ font-weight:700;
 /*--//portfolio--*/
 /*--process--*/
 .process{
-background:#cccccc;
   padding: 30px 0 65px 0;
 	min-height: 659px;
 }
