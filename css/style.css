@@ -493,7 +493,7 @@ font-weight:700;
 	padding: 120px 0px;
 }
 .gallery-section{
-background: url(../images/port-back.jpg) no-repeat 0px 0px;
+background-color: #444;
 	text-align: center;
 }
 
@@ -1780,7 +1780,7 @@ border:none;
 	  min-height: 78px;
 	}
 	.gallery-section {
-	  min-height: 800px;
+	  min-height: 1050px;
 	  padding: 60px 0 0px 0;
 	}
 	.services-back {
@@ -2700,7 +2700,7 @@ border:none;
 	margin-bottom:30px;
 	}
 	.gallery-section {
-	  min-height: 680px;
+	  min-height: 1000px;
 	}
 	.process-gird {
 	  height: 134px;
@@ -3096,6 +3096,7 @@ border:none;
 	  font-size: 13px;
 	}
 	.gallery-section {
+		min-height: 950px;
 	  padding: 120px 0 0px 0;
 	}
 	#portfolio p {
@@ -3514,6 +3515,9 @@ a.callbacks_nav.callbacks1_nav.prev {
 	.about ul li a.in:hover {
 	  background: url(../images/icons.png) no-repeat -92px -33px;
 	  }
+	.gallery-section{
+		min-height:800px;
+	}
 }
 
 
