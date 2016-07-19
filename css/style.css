@@ -169,8 +169,7 @@ float:right;
 /*--about--*/
 
 .about{
-padding:130px 0 25px 0;
-min-height: 659px;
+padding:5% 0 5% 0;
 }
 
 .about h3{
@@ -431,8 +430,7 @@ border-bottom: 2px solid #c3c3c3;
 /*--services--*/
 .services{
 	background-color: #cccccc;
-  padding: 130px 0;
-	min-height: 659px;
+  padding: 5% 0 5% 0;
 }
 .ser-info h3{
   margin: 0;
@@ -490,11 +488,12 @@ font-weight:700;
 /*--//services--*/
 /*--portfolio--*/
 .portfolio{
-	padding: 120px 0px;
+	padding: 5% 0 5% 0;
 }
 .gallery-section{
 background-color: #444;
 	text-align: center;
+	padding: 5% 0 5% 0;
 }
 
 #portfolio p {
@@ -505,6 +504,19 @@ background-color: #444;
   color: #ffffff;
   font-weight: 300;
 }
+
+#portfolio a{
+	color: #ffffff;
+}
+
+#portfolio a h3:hover{
+ color: #999999;
+}
+
+#portfolio p a:hover{
+ color: #ec1a1a;
+}
+
 .gallery-section h3{
    margin: 0;
   color: #ffffff;
@@ -576,8 +588,7 @@ font-weight:700;
 /*--//portfolio--*/
 /*--process--*/
 .process{
-  padding: 100px 0 65px 0;
-	min-height: 659px;
+  padding: 5% 0 5% 0;
 }
 .process-gird{
 background:transparent;
@@ -1103,7 +1114,7 @@ position:relative;
 /*-- contact --*/
 .contact{
 background:#cccccc;
-padding:60px 0 0 0;
+padding:5% 0 0 0;
 }
 .contact-info h3 {
   margin: 0;
@@ -1780,8 +1791,7 @@ border:none;
 	  min-height: 78px;
 	}
 	.gallery-section {
-	  min-height: 1050px;
-	  padding: 60px 0 0px 0;
+	  padding: 5% 0 5% 0;
 	}
 	.services-back {
 	  min-height: 77px;
@@ -1835,9 +1845,6 @@ border:none;
 	.services-back {
 	  min-height: 66px;
 	}
-	.gallery-section {
-	  min-height: 694px;
-	  }
 	.process-back {
 	  min-height: 69px;
 	}
@@ -2066,7 +2073,7 @@ border:none;
 	  font-size: 16px;
 	  }
 	.gallery-section {
-	  padding: 92px 0 0px 0;
+	  padding: 10% 0 5% 0;
 	}
 	.gallery-section h3 {
 	  font-size: 32px;
@@ -2087,7 +2094,6 @@ border:none;
 	  font-size: 16px;
 	  }
 	.gallery-section {
-	  min-height: 100px;
 	}
 	.process h3 {
 	  font-size: 32px;
@@ -2113,10 +2119,10 @@ border:none;
 	  margin-top: 40px;
 	}
 	.services {
-	  padding: 45px 0;
+	  padding: 10% 0 5% 0;
 	}
 	.process {
-	  padding: 100px 0;
+	  padding: 10% 0 5% 0;
 	}
 	.testimonials {
 	  padding: 45px 0;
@@ -2176,7 +2182,7 @@ border:none;
 	  font-size: 32px;
 	  }
 	.contact {
-	  padding: 45px 0 0 0;
+	  padding: 10% 0 0 0;
 	}
 	.contact-grids {
 	  margin-top: 45px;
@@ -2326,7 +2332,7 @@ border:none;
 	  min-height: 48px;
 	}
 	.about {
-	  padding: 40px 0 15px 0;
+	  padding: 10% 0 5% 0;
 	}
 	.my-skills {
 	  padding: 40px 0;
@@ -2404,7 +2410,7 @@ border:none;
 	  font-size: 30px;
 	}
 	.services {
-	  padding: 40px 0;
+	  padding: 10% 0 5% 0x;
 	}
 	.col-md-3.ser-grid {
 	  float: left;
@@ -2453,8 +2459,7 @@ border:none;
 	  left: 36%;
 	}
 	.gallery-section {
-	  padding: 68px 0 0px 0;
-		min-height: 1000px;
+	  padding: 10% 0 5% 0;
 	}
 	.gallery-section h3 {
 	  font-size: 30px;
@@ -2467,7 +2472,6 @@ border:none;
 	  width: 33.3%;
 	}
 	.gallery-section {
-	  min-height: 893px;
 	}
 	.textbox h4 {
 	  margin-top: 55px;
@@ -2700,7 +2704,6 @@ border:none;
 	margin-bottom:30px;
 	}
 	.gallery-section {
-	  min-height: 1000px;
 	}
 	.process-gird {
 	  height: 134px;
@@ -2801,7 +2804,7 @@ border:none;
 	  width: 23%;
 	}
 	.sam-head h3 {
-	  font-size: 28px;
+	  font-size: 20px;
 	}
 	.sample-page {
 	  padding: 40px 0;
@@ -2936,7 +2939,7 @@ border:none;
 	  min-height: 352px;
 	}
 	.about {
-		padding: 120px 0px;
+		padding: 20% 0 5% 0;
 	}
 	.about h3 {
 	  letter-spacing: 11px;
@@ -3083,7 +3086,7 @@ border:none;
 	  font-size: 13px;
 	}
 	.services{
-		padding: 120px 0px;
+		padding: 20% 0 5% 0;
 	}
 
 	.services-back {
@@ -3096,8 +3099,7 @@ border:none;
 	  font-size: 13px;
 	}
 	.gallery-section {
-		min-height: 950px;
-	  padding: 120px 0 0px 0;
+	  padding: 20% 0 5% 0;
 	}
 	#portfolio p {
 	  font-size: 13px;
@@ -3516,7 +3518,6 @@ a.callbacks_nav.callbacks1_nav.prev {
 	  background: url(../images/icons.png) no-repeat -92px -33px;
 	  }
 	.gallery-section{
-		min-height:800px;
 	}
 }
 
