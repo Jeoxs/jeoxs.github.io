@@ -24,7 +24,21 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<!-- js -->
 		<script type="text/javascript" src="js/jquery.min.js"></script>
 		<script type="text/javascript" src="js/bootstrap.min.js"></script>
-
+		<script>
+			$(document).ready(function(){
+			  $("a").on('click', function(event) {
+			    if (this.hash !== "") {
+			      event.preventDefault();
+			      var hash = this.hash;
+			      $('html, body').animate({
+			        scrollTop: $(hash).offset().top
+			      }, 800, function(){
+			        window.location.hash = hash;
+			      });
+			    }
+			  });
+			});
+		</script>
 </head>
 <body>
 <!-- banner -->
@@ -36,7 +50,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavBar">
                     Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="#">
+                <a class="navbar-brand page-scroll" href="#home">
                     <i class="fa fa-code"></i> José 'Jeoxs' Aponte
                 </a>
             </div>
@@ -208,49 +222,63 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<h3>Flujo de Trabajo</h3>
 		<div class="strip text-center"><img src="images/pro-black.png" alt=" "/></div>
 		<div class="process-girds">
-			<div class="col-md-2 process-pad">
-			<div class="process-gird">
+
+			<div class="container process-element">
+			<div class="col-md-4">
 					<i class="fa fa-5x fa-lightbulb-o" aria-hidden="true"></i>
 					<p>IDEA</p>
-					<i class="fa fa-2x fa-arrow-right" aria-hidden="true"></i>
+			</div>
+			<div class="col-md-8">
+				<p>Empezamos por obtener la idea general y las ideas específicas del proyecto a realizar. Todas las ideas positivas son bienvenidas! Se hace el respectivo levantamiento de información para así dirigirnos a la siguiente fase.</p>
 			</div>
 		</div>
 
-		<div class="col-md-2 process-pad">
-			<div class="process-gird">
+		<div class="container process-element">
+			<div class="col-md-4">
 					<i class="fa fa-5x fa-cogs" aria-hidden="true"></i>
 					<p>CONCEPTO</p>
-					<i class="fa fa-2x fa-arrow-right" aria-hidden="true"></i>
+			</div>
+			<div class="col-md-8">
+				<p>Pasamos a la fase donde todos los involucrados entendemos el concepto del proyecto, visualizando todas sus características y alcances de la aplicación.</p>
 			</div>
 		</div>
 
-		<div class="col-md-2 process-pad">
-			<div class="process-gird">
+		<div class="container process-element">
+			<div class="col-md-4">
 					<i class="fa fa-5x fa-paint-brush" aria-hidden="true"></i>
 					<p>DISEÑO</p>
-					<i class="fa fa-2x fa-arrow-right" aria-hidden="true"></i>
+			</div>
+			<div class="col-md-8">
+				<p>Todo el diseño será realizado en base al concepto acordado por todos los involucrados. El inicio de la magia comienza al generar los bocetos y diseños de todas las partes de la aplicación, desde la interfaz y procesamiento hasta la base de datos (si la necesita).</p>
 			</div>
 		</div>
 
-		<div class="col-md-2 process-pad">
-			<div class="process-gird">
+		<div class="container process-element">
+			<div class="col-md-4">
 					<i class="fa fa-5x fa-code" aria-hidden="true"></i>
 					<p>DESARROLLO</p>
-					<i class="fa fa-2x fa-arrow-right" aria-hidden="true"></i>
+			</div>
+			<div class="col-md-8">
+				<p>En este punto se empieza con el desarrollo del proyecto. Cualquier modificación de algún detalle será bienvenido siempre y cuando sea acordado por todos los involucrados.</p>
 			</div>
 		</div>
 
-		<div class="col-md-2 process-pad">
-			<div class="process-gird">
+		<div class="container process-element">
+			<div class="col-md-4">
 					<i class="fa fa-5x fa-gamepad" aria-hidden="true"></i>
 					<p>PRUEBA</p>
-					<i class="fa fa-2x fa-arrow-right" aria-hidden="true"></i>
+			</div>
+			<div class="col-md-8">
+				<p>No vamos a lanzar nuestro cohete a la luna sin antes realizar todas las pruebas necesarias, ¿Verdad?</p>
 			</div>
 		</div>
-		<div class="col-md-2 process-pad">
-			<div class="process-gird">
+		<div class="container process-element">
+			<div class="col-md-4">
 					<i class="fa fa-5x fa-rocket" aria-hidden="true"></i>
 					<p>LANZAMIENTO</p>
+			</div>
+			<div class="col-md-8">
+				<p>Huston! Estamos listos para despegar. Agarren todos su Botella De Champagne y celebremos por el lanzamiento de nuestro cohete a la luna.</p>
 			</div>
 		</div>
 			<div class="clearfix"></div>
@@ -298,7 +326,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!--footer-->
 <div class="footer">
 	<div class="container">
-
+		<p>Esta página fue <i class="fa fa-code" aria-hidden="true"></i> y <i class="fa fa-server" aria-hidden="true"></i> en <a href="https://github.com" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></p>
 	</div>
 </div>
 <!--//footer-->
@@ -306,14 +334,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<script type="text/javascript" src="js/portfolio-detail.js"></script>
 	<script type="text/javascript">
 		$(document).ready(function() {
-			/*
-				var defaults = {
-				containerID: 'toTop', // fading element id
-				containerHoverID: 'toTopHover', // fading element hover id
-				scrollSpeed: 1200,
-				easingType: 'linear'
-				};
-			*/
 
 			$(function(){
 					var navMain = $("#myNavBar");
@@ -323,6 +343,24 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 			});
 
+			$(window).scroll( function(){
+
+			        /* Check the location of each desired element */
+			        $('.process-element').each( function(i){
+
+			            var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+			            var bottom_of_window = $(window).scrollTop() + $(window).height();
+
+			            /* If the object is completely visible in the window, fade it it */
+			            if( bottom_of_window > bottom_of_object ){
+
+			                $(this).animate({'opacity':'1'},500);
+
+			            }
+
+			        });
+
+			    });
 
 });
 	</script>
