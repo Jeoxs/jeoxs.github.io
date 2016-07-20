@@ -553,6 +553,9 @@ padding:0 25px;
 	.process-girds .col-md-4 p{
 		padding-bottom: 4%;
 	}
+	.textbox {
+		display:none;
+	}
 }
 
 /*-- contact --*/
@@ -1121,6 +1124,9 @@ border:none;
 	.footer {
 	  padding: 25px 0;
 	}
+	.textbox {
+		display:none;
+	}
 }
 @media(max-width:640px){
 .contact-left {
@@ -1189,6 +1195,9 @@ border:none;
 	  width: 41%;
 	  background: url(../images/mess.png) no-repeat 26px 11px;
 	  }
+		.textbox {
+			display:none;
+		}
 }
 @media(max-width:480px){
 	.logo {
@@ -1327,8 +1336,8 @@ border:none;
 	  width: 50%;
 	}
 
-	.textbox h4 {
-	  font-size: 16px;
+	.gallery-grid h4 {
+	  font-size: 14px;
 	  }
 	.button a {
 	  font-size: 13px;
@@ -1399,6 +1408,9 @@ border:none;
 	.contact-right textarea {
 	  height: 120px;
 	  }
+		.textbox {
+			display:none;
+		}
 }
 @media(max-width:320px){
 .col-md-4.sample-page-right {
@@ -1584,7 +1596,14 @@ a.callbacks_nav.callbacks1_nav.prev {
 	.about ul li a.in:hover {
 	  background: url(../images/icons.png) no-repeat -92px -33px;
 	  }
-	.gallery-section{
+	.gallery-section h3{
+		font-size: 22px;
+	}
+	.gallery-grid h4{
+		font-size: 14px;
+	}
+	.textbox {
+		display:none;
 	}
 }
 
