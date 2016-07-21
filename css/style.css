@@ -39,7 +39,13 @@ button#showRightPush img {
 	padding-left: 8px;
 }
 
+nav a{
+	font-size:18px;
+}
 
+.navbar-brand {
+	font-size: 16px;
+}
 
 /*--header--*/
 .logo {
@@ -374,13 +380,17 @@ background-color: #444;
 #portfolio p {
   font-family: 'Lato', sans-serif;
   line-height: 1.8em;
-  margin: 25px 0 0 0;
+  margin: 2% 0 0 0;
   font-size: 18px;
   color: #ffffff;
   font-weight: 300;
 }
 
-#portfolio a{
+#portfolio ul{
+	padding: 1% 4% 1% 4%;
+}
+
+#portfolio a,ul{
 	color: #ffffff;
 }
 
@@ -400,7 +410,7 @@ background-color: #444;
   letter-spacing: 18px;
 }
 .gallery-grid {
-  padding: 0;
+  padding: 1%;
 }
 .gallery1 {
 position:relative;
@@ -413,7 +423,7 @@ top:0;
 left:0;
 -webkit-transform: scale(0);
 transform: scale(0);
-background-color:rgba(10,10,10, 0.5);
+background-color:rgba(68,68,68, 0.7);
 }
 .gallery1:hover .textbox {
 -webkit-transform: scale(1);
@@ -1607,5 +1617,9 @@ a.callbacks_nav.callbacks1_nav.prev {
 	}
 }
 
-
+@media(max-width:300px){
+	.navbar-brand {
+		font-size: 14px;
+	}
+}
 /*-- responsive media queries --*/
