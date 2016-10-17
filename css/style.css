@@ -370,6 +370,10 @@ font-weight:700;
 		opacity:0;
 }
 
+.contact-element{
+		opacity:0;
+}
+
 /*--portfolio--*/
 .portfolio{
 	padding: 5% 0 5% 0;

@@ -98,12 +98,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		a lo largo de mi vida pero siempre quise aprender la magia que existe detrás de la pantalla de la PC.
 		La programación me encanta y desarrollar aplicaciones web es bastante satisfactorio para mí.</p>
 		<ul>
-			<li><a href="https://twitter.com/jeoxs" target="_blank"><i class="fa fa-5x fa-twitter" aria-hidden="true"></i></a></li>
-			<li><a href="https://plus.google.com/+JeoxsG/" target="_blank"><i class="fa fa-5x fa-google-plus-official" aria-hidden="true"></i></a></li>
-			<li><a href="https://github.com/jeoxs" target="_blank"><i class="fa fa-5x fa-github" aria-hidden="true"></i></a></li>
-			<li><a href="https://notasdelnerd.wordpress.com" target="_blank"><i class="fa fa-5x fa-wordpress" aria-hidden="true"></i></a></li>
-			<li><a href="https://ve.linkedin.com/in/josé-aponte-34467859" target="_blank"><i class="fa fa-5x fa-linkedin-square" aria-hidden="true"></i></a></li>
-			<li><a href="https://medium.com/@jeoxs" target="_blank"><i class="fa fa-5x fa-medium" aria-hidden="true"></i></a></li>
+			<li><a class="contact-element" href="https://twitter.com/jeoxs" target="_blank"><i class="fa fa-5x fa-twitter" aria-hidden="true"></i></a></li>
+			<li><a class="contact-element" href="https://plus.google.com/+JeoxsG/" target="_blank"><i class="fa fa-5x fa-google-plus-official" aria-hidden="true"></i></a></li>
+			<li><a class="contact-element" href="https://github.com/jeoxs" target="_blank"><i class="fa fa-5x fa-github" aria-hidden="true"></i></a></li>
+			<li><a class="contact-element" href="https://notasdelnerd.wordpress.com" target="_blank"><i class="fa fa-5x fa-wordpress" aria-hidden="true"></i></a></li>
+			<li><a class="contact-element" href="https://ve.linkedin.com/in/josé-aponte-34467859" target="_blank"><i class="fa fa-5x fa-linkedin-square" aria-hidden="true"></i></a></li>
+			<li><a class="contact-element" href="https://medium.com/@jeoxs" target="_blank"><i class="fa fa-5x fa-medium" aria-hidden="true"></i></a></li>
 		</ul>
 	</div>
 </div>
@@ -348,17 +348,24 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 			        /* Check the location of each desired element */
 			        $('.process-element').each( function(i){
-
 			            var bottom_of_object = $(this).offset().top + $(this).outerHeight();
 			            var bottom_of_window = $(window).scrollTop() + $(window).height();
 
 			            /* If the object is completely visible in the window, fade it it */
 			            if( bottom_of_window > bottom_of_object ){
-
 			                $(this).animate({'opacity':'1'},500);
-
 			            }
+			        });
 
+							/* Check the location of each desired element */
+			        $('.contact-element').each( function(i){
+			            var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+			            var bottom_of_window = $(window).scrollTop() + $(window).height();
+
+			            /* If the object is completely visible in the window, fade it it */
+			            if( bottom_of_window > bottom_of_object ){
+			                $(this).delay(100 * i).animate({'opacity':'1'},1);
+			            }
 			        });
 
 			    });
