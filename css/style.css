@@ -113,6 +113,9 @@ a.boxclose{
 .menu_box_list li a > i > img{
 	vertical-align:middle;
 }
+
+.top-buffer { margin-top:20px; }
+
 .boxclose span{
 	width:58px;
 	height:73px;

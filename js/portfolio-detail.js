@@ -18,6 +18,16 @@ $('#url-integria').click(function(){
   location.href = "#portfolio";
 });
 
+$('#url-opencart').click(function(){
+  $('#portfolio-container').hide("slow",function(){
+    $.get("portfolio/opencart.html",function(data){
+          $("#portfolio-detail").append(data);
+          $("#portfolio-detail").show("slow");
+    });
+  });
+  location.href = "#portfolio";
+});
+
 $('#url-receta_salud').click(function(){
     $('#portfolio-container').hide("slow",function(){
         $.get("portfolio/receta-salud.html",function(data){
