@@ -1,4 +1,4 @@
-<!--
+z<!--
 Author: W3layouts
 Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
@@ -41,6 +41,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			  });
 			});
 		</script>
+		
 		<!-- Start of HubSpot Embed Code -->
 		  <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/3299203.js"></script>
 		<!-- End of HubSpot Embed Code -->
@@ -65,11 +66,26 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 <ul class="nav navbar-nav">
                     <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
                     <li class="hidden"> <a href="#page-top"></a></li>
-                    <li><a class="page-scroll" href="#about">Sobre Mí</a></li>
-                    <li><a class="page-scroll" href="#services">Servicios</a></li>
-                    <li><a class="page-scroll" href="#portfolio">Mi Trabajo</a></li>
-										<li><a class="page-scroll" href="#process">Flujo</a></li>
-										<li><a class="page-scroll" href="#contact">Contacto</a></li>
+                    <li><a class="page-scroll" href="#about"><div data-translate="about"></div></a></li>
+                    <li><a class="page-scroll" href="#services"><div data-translate="services"></div></a></li>
+                    <li><a class="page-scroll" href="#portfolio"><div data-translate="portfolio"></div></a></li>
+										<li><a class="page-scroll" href="#process"><div data-translate="workflow"></div></a></li>
+										<li><a class="page-scroll" href="#contact"><div data-translate="contact"></div></a></li>
+										<li class="dropdown">
+					                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+													<img src="images/es.png" style="width: 26px;" alt=""/>
+													<img src="images/uk.png" style="width: 26px;" alt=""/>
+					                        		<b class="caret"></b></a>
+					                        <ul class="dropdown-menu">                        
+					                            <li >
+					                                <a href="#" id="lang-es">Español</a>
+					                            </li>
+					                            <li >
+					                                <a href="#" id="lang-en">English</a>
+					                            </li>
+					                        </ul>
+					                    </li>
+                    <li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -85,8 +101,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<div class="banner-right">
 				<h1>JOSÉ APONTE</h1>
 				<div class="border"></div>
-				<h2>Programador Web</h2>
-				<a href="https://trello.com/b/JO2SVcVC" target="_blank">Ver Curriculum Vitae</a>
+				<h2><div data-translate="web_developer"></div></h2>
+				<a href="https://trello.com/b/JO2SVcVC" target="_blank"><i class="fa fa-eye" aria-hidden="true"></i> CV</a>
 			</div>
 			<div class="clearfix"></div>
 		</div>
@@ -99,12 +115,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 <div class="about text-center" id="about">
 	<div class="container">
-		<h3>Sobre Mí</h3>
+		<h3><div data-translate="about"></div></h3>
 		<div class="strip text-center"><img src="images/about.png" alt=" "/></div>
-		<p>Un joven que le encanta el mundo de la informática. Iniciando mis primeros pasos a los 5 años
-		dañando las computadoras. Es posible que haya dañado algunas más en el transcurso de mi aprendizaje
-		a lo largo de mi vida pero siempre quise aprender la magia que existe detrás de la pantalla de la PC.
-		La programación me encanta y desarrollar aplicaciones web es bastante satisfactorio para mí.</p>
+		<p><div data-translate="about_detail"></div></p>
 		<ul>
 			<li><a class="contact-element" href="https://twitter.com/jeoxs" target="_blank"><i class="fa fa-5x fa-twitter" aria-hidden="true"></i></a></li>
 			<li><a class="contact-element" href="https://plus.google.com/+JeoxsG/" target="_blank"><i class="fa fa-5x fa-google-plus-official" aria-hidden="true"></i></a></li>
@@ -120,37 +133,29 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <div class="services text-center" id="services">
 	<div class="container">
 		<div class="ser-info">
-			<h3>Servicios</h3>
+			<h3><div data-translate="services"></div></h3>
 		</div>
 		<div class="strip text-center"><img src="images/ser.png" alt=" "/></div>
 		<div class="ser-grids">
 			<div class="col-md-3 ser-grid">
 				<i class="fa fa-5x fa-html5" aria-hidden="true"></i>
-				<h3>Desarrollo Web</h3>
-				<p>Creación de páginas Web y
-					aplicaciones para las necesidades del
-				usuario final.</p>
+				<h3><div data-translate="web_development"></div></h3>
+				<p><div data-translate="web_development_detail"></div></p>
 			</div>
 			<div class="col-md-3 ser-grid">
 				<i class="fa fa-5x fa-align-center" aria-hidden="true"></i>
-				<h3>Escritor de Contenido</h3>
-				<p>Si necesitas escribir contenido
-					para algún blog, página personal
-					u otro sitio web deseado.</p>
+				<h3><div data-translate="content_writer"></div></h3>
+				<p><div data-translate="content_writer_detail"></div></p>
 			</div>
 			<div class="col-md-3 ser-grid">
 				<i class="fa fa-5x fa-code" aria-hidden="true"></i>
-				<h3>Programación</h3>
-				<p>Desarrollo de toda la magia que existe
-					detrás de la pantalla. Aplicaciones para
-					servidores a través de Scripts y más.</p>
+				<h3><div data-translate="programming"></div></h3>
+				<p><div data-translate="programming_detail"></div></p>
 			</div>
 			<div class="col-md-3 ser-grid">
 				<i class="fa fa-5x fa-database" aria-hidden="true"></i>
-				<h3>Base de Datos</h3>
-				<p>Administración de bases de datos
-				con la tecnología de MySQL y MariaDB
-				para los distintos sistemas Operativos.</p>
+				<h3><div data-translate="database"></div></h3>
+				<p><div data-translate="database_detail"></div></p>
 			</div>
 			<div class="clearfix"></div>
 		</div>
@@ -161,11 +166,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <div class="gallery-section text-center" id="portfolio">
 	<div class="container" id="portfolio-detail" style="display:none;"></div>
 	<div class="container" id="portfolio-container">
-		<h3>MI Trabajo</h3>
+		<h3><div data-translate="portfolio"></div></h3>
 		<div class="strip text-center"><img src="images/port.png" alt=" "/></div>
-		<p>Entre los pequeños detalles que he brindado a la comunidad y clientes existen pequeñas
-			soluciones y sistemas que han sido creados gracias a las manos que escriben este texto.
-			No inventé la internet ni la web, pero si he ayudado en lo siguiente:</p>
+		<p><div data-translate="portfolio_detail"></div></p>
 		<div class="gallery-grids">
 			<div class="top-gallery">
 				<div id="url-notas_del_nerd" class="col-md-2 gallery-grid gallery1">
@@ -297,7 +300,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				<div class="stripb"></div>
 				<ul>
 					<li>Caracas, Venezuela</li>
-					<li><i class="fa fa-internet-explorer" aria-hidden="true"></i><a href="#">www.jooseaponte.com.ve</a></li>
+					<li><i class="fa fa-internet-explorer" aria-hidden="true"></i><a href="#">www.joseaponte.com.ve</a></li>
 				</ul>
 			</div>
 			<div class="col-md-7 contact-right">
@@ -382,6 +385,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 </div>
 <!--//footer-->
 <!-- here stars scrolling icon -->
+	<script type="text/javascript" src="js/language.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
 	<script type="text/javascript">
 
 
@@ -411,29 +416,29 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			    						});
 		    });  
 
-			setTimeout(function() {
-							    $( function mailchimp() {
-			    						$( "#dialog" ).dialog({
+			// setTimeout(function() {
+			// 				    $( function mailchimp() {
+			//     						$( "#dialog" ).dialog({
 			    									
-											        show: 'fade', 
-			    									bgiframe: true,
-                                                   	resizable: false,
-                                                   	draggable: false,
-                                                   	modal: true,
-                                                   	width: 'auto',
-                                                   	overlay: {
-                                                            opacity: 0.9,
-                                                            background: "black"
-                                                           }//,
-                                                 //create: function(event, ui) {
-													 //  $("body").css({ overflow: 'hidden' })
-													 // },
-													  //beforeClose: function(event, ui) {
-													   //$("body").css({ overflow: 'inherit' })
-													  //}
-			    						});
-								});
-			}, 1000);
+			// 								        show: 'fade', 
+			//     									bgiframe: true,
+   //                                                 	resizable: false,
+   //                                                 	draggable: false,
+   //                                                 	modal: true,
+   //                                                 	width: 'auto',
+   //                                                 	overlay: {
+   //                                                  	        opacity: 0.9,
+   //                                                          background: "black"
+   //                                                         }//,
+   //                                               //create: function(event, ui) {
+			// 										 //  $("body").css({ overflow: 'hidden' })
+			// 										 // },
+			// 										  //beforeClose: function(event, ui) {
+			// 										   //$("body").css({ overflow: 'inherit' })
+			// 										  //}
+			//     						});
+			// 					});
+			// }, 25000);
 			
 
 			$(function(){
