@@ -1,479 +1,122 @@
-z<!--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>José 'Jeoxs' Aponte</title>
-	<!--fonts-->
-		<link href='//fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
-		<link href='//fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
-	<!--//fonts-->
-		<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-		<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
-		<link href="css/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css" media="all" />
-		<link rel="stylesheet" href="js/jquery-ui/jquery-ui.css">
-	<!-- for-mobile-apps -->
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<meta name="keywords" content="José Aponte, jeoxs, Desarrollador Web, Administrador de sistemas Linux, programador, gamer" />
-		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-	<!-- //for-mobile-apps -->
-	<!-- js -->
-		<script type="text/javascript" src="js/jquery.min.js"></script>
-		<script type="text/javascript" src="js/bootstrap.min.js"></script>
-		<script type="text/javascript" src="js/jquery-ui/jquery-ui.js"></script>
-		<script>
-			$(document).ready(function(){
-			  $("a").on('click', function(event) {
-			    if (this.hash !== "") {
-			      event.preventDefault();
-			      var hash = this.hash;
-			      $('html, body').animate({
-			        scrollTop: $(hash).offset().top
-			      }, 800, function(){
-			        window.location.hash = hash;
-			      });
-			    }
-			  });
-			});
-		</script>
-		<!-- Start of HubSpot Embed Code -->
-		  <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/3299203.js"></script>
-		<!-- End of HubSpot Embed Code -->
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>Starter Template - Materialize</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body>
-<!-- banner -->
-<div class="banner" id="home">
-	<div class="container">
-		<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavBar">
-                    Menu <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand page-scroll" href="#home">
-                    <i class="fa fa-code"></i> José 'Jeoxs' Aponte
-                </a>
-            </div>
+  <nav class="grey darken-40" role="navigation">
+    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">Logo</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#">Navbar Link</a></li>
+      </ul>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-right navbar-main-collapse" id="myNavBar">
-                <ul class="nav navbar-nav">
-                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                    <li class="hidden"> <a href="#page-top"></a></li>
-                    <li><a class="page-scroll" href="#about">Sobre Mí</a></li>
-                    <li><a class="page-scroll" href="#services">Servicios</a></li>
-                    <li><a class="page-scroll" href="#portfolio">Mi Trabajo</a></li>
-										<li><a class="page-scroll" href="#process">Flujo</a></li>
-										<li><a class="page-scroll" href="#contact">Contacto</a></li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
+      <ul id="nav-mobile" class="sidenav">
+        <li><a href="#">Navbar Link</a></li>
+      </ul>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+  <div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+      <br><br>
+      <h1 class="header center orange-text">Starter Template</h1>
+      <div class="row center">
+        <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+      </div>
+      <div class="row center">
+        <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light orange">Get Started</a>
+      </div>
+      <br><br>
+
+    </div>
+  </div>
+
+
+  <div class="container">
+    <div class="section">
+
+      <!--   Icon Section   -->
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><i class="material-icons">flash_on</i></h2>
+            <h5 class="center">Speeds up development</h5>
+
+            <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
+          </div>
         </div>
-        <!-- /.container -->
-    </nav>
-		<div class="banner-info">
-			<div class="banner-left">
 
-				<img src="images/jose_aponte.jpg" class="img-circle img-responsive" style="width: 246px;" alt=""/>
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><i class="material-icons">group</i></h2>
+            <h5 class="center">User Experience Focused</h5>
 
-			</div>
-			<div class="banner-right">
-				<h1>JOSÉ APONTE</h1>
-				<div class="border"></div>
-				<h2>Programador Web</h2>
-				<a href="https://trello.com/b/JO2SVcVC" target="_blank">Ver Curriculum Vitae</a>
-			</div>
-			<div class="clearfix"></div>
-		</div>
-	</div>
-</div>
-<!--/header-banner-->
-<!--about-->
-<div class="container" id="mailchimp" style="display:none;">
-</div>
+            <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
+          </div>
+        </div>
 
-<div class="about text-center" id="about">
-	<div class="container">
-		<h3>Sobre Mí</h3>
-		<div class="strip text-center"><img src="images/about.png" alt=" "/></div>
-		<p>Un joven que le encanta el mundo de la informática. Iniciando mis primeros pasos a los 5 años
-		dañando las computadoras. Es posible que haya dañado algunas más en el transcurso de mi aprendizaje
-		a lo largo de mi vida pero siempre quise aprender la magia que existe detrás de la pantalla de la PC.
-		La programación me encanta y desarrollar aplicaciones web es bastante satisfactorio para mí.</p>
-		<ul>
-			<li><a class="contact-element" href="https://twitter.com/jeoxs" target="_blank"><i class="fa fa-5x fa-twitter" aria-hidden="true"></i></a></li>
-			<li><a class="contact-element" href="https://plus.google.com/+JeoxsG/" target="_blank"><i class="fa fa-5x fa-google-plus-official" aria-hidden="true"></i></a></li>
-			<li><a class="contact-element" href="https://github.com/jeoxs" target="_blank"><i class="fa fa-5x fa-github" aria-hidden="true"></i></a></li>
-			<li><a class="contact-element" href="https://notasdelnerd.wordpress.com" target="_blank"><i class="fa fa-5x fa-wordpress" aria-hidden="true"></i></a></li>
-			<li><a class="contact-element" href="https://ve.linkedin.com/in/josé-aponte-34467859" target="_blank"><i class="fa fa-5x fa-linkedin-square" aria-hidden="true"></i></a></li>
-			<li><a class="contact-element" href="https://medium.com/@jeoxs" target="_blank"><i class="fa fa-5x fa-medium" aria-hidden="true"></i></a></li>
-		</ul>
-	</div>
-</div>
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><i class="material-icons">settings</i></h2>
+            <h5 class="center">Easy to work with</h5>
 
-<!--services-->
-<div class="services text-center" id="services">
-	<div class="container">
-		<div class="ser-info">
-			<h3>Servicios</h3>
-		</div>
-		<div class="strip text-center"><img src="images/ser.png" alt=" "/></div>
-		<div class="ser-grids">
-			<div class="col-md-3 ser-grid">
-				<i class="fa fa-5x fa-html5" aria-hidden="true"></i>
-				<h3>Desarrollo Web</h3>
-				<p>Creación de páginas Web y
-					aplicaciones para las necesidades del
-				usuario final.</p>
-			</div>
-			<div class="col-md-3 ser-grid">
-				<i class="fa fa-5x fa-align-center" aria-hidden="true"></i>
-				<h3>Escritor de Contenido</h3>
-				<p>Si necesitas escribir contenido
-					para algún blog, página personal
-					u otro sitio web deseado.</p>
-			</div>
-			<div class="col-md-3 ser-grid">
-				<i class="fa fa-5x fa-code" aria-hidden="true"></i>
-				<h3>Programación</h3>
-				<p>Desarrollo de toda la magia que existe
-					detrás de la pantalla. Aplicaciones para
-					servidores a través de Scripts y más.</p>
-			</div>
-			<div class="col-md-3 ser-grid">
-				<i class="fa fa-5x fa-database" aria-hidden="true"></i>
-				<h3>Base de Datos</h3>
-				<p>Administración de bases de datos
-				con la tecnología de MySQL y MariaDB
-				para los distintos sistemas Operativos.</p>
-			</div>
-			<div class="clearfix"></div>
-		</div>
-	</div>
-</div>
-<!--//services-->
-<!--portfolio-->
-<div class="gallery-section text-center" id="portfolio">
-	<div class="container" id="portfolio-detail" style="display:none;"></div>
-	<div class="container" id="portfolio-container">
-		<h3>MI Trabajo</h3>
-		<div class="strip text-center"><img src="images/port.png" alt=" "/></div>
-		<p>Entre los pequeños detalles que he brindado a la comunidad y clientes existen pequeñas
-			soluciones y sistemas que han sido creados gracias a las manos que escriben este texto.
-			No inventé la internet ni la web, pero si he ayudado en lo siguiente:</p>
-		<div class="gallery-grids">
-			<div class="top-gallery">
-				<div id="url-notas_del_nerd" class="col-md-2 gallery-grid gallery1">
-					<a href="#portfolio" class="swipebox"><img src="images/portfolio/notas-del-nerd.png" class=" img-responsive" alt="/">
-						<div class="textbox">
-							<h4>Notas del nerd</h4>
-						</div>
-				</div></a>
-				<div id="url-opencart" class="col-md-2 gallery-grid gallery1">
-					<a href="#portfolio" class="swipebox"><img src="images/portfolio/opencart.png" class=" img-responsive" alt="/">
-						<div class="textbox">
-							<h4>Créditos de Opencart</h4>
-						</div>
-				</div></a>
-				<div id="url-integria" class="col-md-2 gallery-grid gallery1">
-					<a href="#portfolio" class="swipebox"><img src="images/portfolio/integria.png" class=" img-responsive" alt="/">
-						<div class="textbox">
-							<h4>Módulos de Integria IMS</h4>
-						</div>
-				</div></a>
-				<div id="url-receta_salud" class="col-md-2 gallery-grid gallery1">
-					<a href="#portfolio" class="swipebox"><img src="images/portfolio/receta-salud.png" class=" img-responsive" alt="/">
-						<div class="textbox">
-							<h4>Receta Salud</h4>
-						</div>
-				</div></a>
-				<div class="col-md-2 gallery-grid gallery1">
-					<a class="swipebox"><img src="images/portfolio/registro-visitas.png" class=" img-responsive" alt="/">
-						<div class="textbox">
-							<h4>DoorKnock</h4>
-						</div>
-				</div></a>
-				<div class="col-md-2 gallery-grid gallery1">
-					<a class="swipebox"><img src="images/portfolio/google-script.png" class=" img-responsive" alt="/">
-						<div class="textbox">
-							<h4>Google Script</h4>
-						</div>
-				</div></a>
-				<div class="clearfix"> </div>
-			</div>
-		</div>
-	</div>
+            <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
+          </div>
+        </div>
+      </div>
 
-</div>
-<!--//portfolio-->
+    </div>
+    <br><br>
+  </div>
 
-<!--process-->
-<div class="process text-center" id="process">
-	<div class="container-fluid">
-		<h3>Flujo de Trabajo</h3>
-		<div class="strip text-center"><img src="images/pro-black.png" alt=" "/></div>
-		<div class="process-girds">
-
-			<div class="container process-element">
-			<div class="col-md-4">
-					<i class="fa fa-5x fa-lightbulb-o" aria-hidden="true"></i>
-					<p>IDEA</p>
-			</div>
-			<div class="col-md-8">
-				<p>Empezamos por obtener la idea general y las ideas específicas del proyecto a realizar. Todas las ideas positivas son bienvenidas! Se hace el respectivo levantamiento de información para así dirigirnos a la siguiente fase.</p>
-			</div>
-		</div>
-
-		<div class="container process-element">
-			<div class="col-md-4">
-					<i class="fa fa-5x fa-cogs" aria-hidden="true"></i>
-					<p>CONCEPTO</p>
-			</div>
-			<div class="col-md-8">
-				<p>Pasamos a la fase donde todos los involucrados entendemos el concepto del proyecto, visualizando todas sus características y alcances de la aplicación.</p>
-			</div>
-		</div>
-
-		<div class="container process-element">
-			<div class="col-md-4">
-					<i class="fa fa-5x fa-paint-brush" aria-hidden="true"></i>
-					<p>DISEÑO</p>
-			</div>
-			<div class="col-md-8">
-				<p>Todo el diseño será realizado en base al concepto acordado por todos los involucrados. El inicio de la magia comienza al generar los bocetos y diseños de todas las partes de la aplicación, desde la interfaz y procesamiento hasta la base de datos (si la necesita).</p>
-			</div>
-		</div>
-
-		<div class="container process-element">
-			<div class="col-md-4">
-					<i class="fa fa-5x fa-code" aria-hidden="true"></i>
-					<p>DESARROLLO</p>
-			</div>
-			<div class="col-md-8">
-				<p>En este punto se empieza con el desarrollo del proyecto. Cualquier modificación de algún detalle será bienvenido siempre y cuando sea acordado por todos los involucrados.</p>
-			</div>
-		</div>
-
-		<div class="container process-element">
-			<div class="col-md-4">
-					<i class="fa fa-5x fa-gamepad" aria-hidden="true"></i>
-					<p>PRUEBA</p>
-			</div>
-			<div class="col-md-8">
-				<p>No vamos a lanzar nuestro cohete a la luna sin antes realizar todas las pruebas necesarias, ¿Verdad?</p>
-			</div>
-		</div>
-		<div class="container process-element">
-			<div class="col-md-4">
-					<i class="fa fa-5x fa-rocket" aria-hidden="true"></i>
-					<p>LANZAMIENTO</p>
-			</div>
-			<div class="col-md-8">
-				<p>¡Houston! Estamos listos para despegar. Agarren todos su Botella De Champagne y celebremos por el lanzamiento de nuestro cohete a la luna.</p>
-			</div>
-		</div>
-			<div class="clearfix"></div>
-		</div>
-	</div>
-</div>
-<!--//process-->
+  <footer class="page-footer orange">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Company Bio</h5>
+          <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
 
 
-<!--contact-->
-<div class="contact" id="contact">
-	<div class="container">
-		<div class="contact-info text-center">
-			<h3>Contacto</h3>
-			<div class="strip text-center"><img src="images/con1.png" alt=" "/></div>
-		</div>
-		<div class="contact-grids">
-			<div class="col-md-5 contact-left">
-				<h3>Cuéntame Qué tal te va!</h3>
-				<div class="stripb"></div>
-				<ul>
-					<li>Caracas, Venezuela</li>
-					<li><i class="fa fa-internet-explorer" aria-hidden="true"></i><a href="#">www.joseaponte.com.ve</a></li>
-				</ul>
-			</div>
-			<div class="col-md-7 contact-right">
-				<h3>Déjame un Mensaje</h3>
-				<div class="stripb"></div>
-				<form action="https://formspree.io/jeygi9@gmail.com" method="POST">
-					<input type="text" name="nombre" value="Nombre" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Nombre';}" required="">
-					<input type="text" name="correo" value="E-mail" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'E-mail';}" required="">
-					<textarea type="text" name="mensaje" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Mensaje';}" required="">Mensaje</textarea>
-					<button type="submit" class="btn btn-success">
-						<i class="fa fa-envelope-o" aria-hidden="true"></i> Enviar
-					</button>
-				</form>
-			</div>
-			<div class="clearfix"></div>
-		</div>
-	</div>
-	<br>
-</div>
-
-<!--//contact-->
-
-<!--footer-->
-<div class="footer">
-	<div class="container">
-		<p>Esta página fue <i class="fa fa-code" aria-hidden="true"></i> y <i class="fa fa-server" aria-hidden="true"></i> en <a href="https://github.com" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></p>
-	</div>
-</div>
-
-<div class="container md-col-12" id="dialog" title="Suscríbete, ¡Es Gratis!" style="display: none;">
- 		<!-- Begin MailChimp Signup Form -->
-		<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
-		<style type="text/css">
-			#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
-			/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
-			   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-		</style>
-
-			<div id="mc_embed_signup">
-			<form action="//joseaponte.us15.list-manage.com/subscribe/post?u=ea46ce6ce9f54717744b5476f&amp;id=421214635e" method="POST" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-			<div id="mc_embed_signup_scroll">
-				<div class="col-md-6">
-					<h2>¡Aquí Estoy!</h2>
-				<p>Suscríbete a mi boletín y recibe contenido destacado todas las semanas del blog, tips, comentarios, etc.</p>
-				</div>
-				<div class="col-md-6">
-					<img src="images/mail.png" class="img-responsive" style="width: 146px;" alt=""/>
-				</div>
-			    
-				
-				
-			<div class="mc-field-group">
-				<label for="mce-EMAIL">Email  <span class="asterisk">*</span>
-			</label>
-				<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
-			</div>
-				<div id="mce-responses" class="clear">
-					<div class="response" id="mce-error-response" style="display:none"></div>
-					<div class="response" id="mce-success-response" style="display:none"></div>
-				</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-			    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_ea46ce6ce9f54717744b5476f_421214635e" tabindex="-1" value=""></div>
-			    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-			    </div>
-			</form>
-			</div>
-
-			
-
-		
-		<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
-		<!--End mc_embed_signup-->
-</div>
-<div class="container" id="dialog-thanks" style="display: none;">
-	<div class="col-md-6">
-		<h2>¡Thank You!</h2>
-		<p>Recibirás un correo de confirmación para ser añadido a la lista de distribución. No te arrepentirás!</p>
-		<div class="clear"><input value="Cerrar" id="dialog-thanks-close" class="button"></div>
-	</div>
-	<div class="col-md-6">
-		<img src="images/yoda.png" class="img-circle img-responsive" style="width: 146px;" alt=""/>
-	</div>
-</div>
-<!--//footer-->
-<!-- here stars scrolling icon -->
-	<script type="text/javascript">
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Settings</h5>
+          <ul>
+            <li><a class="white-text" href="#!">Link 1</a></li>
+            <li><a class="white-text" href="#!">Link 2</a></li>
+            <li><a class="white-text" href="#!">Link 3</a></li>
+            <li><a class="white-text" href="#!">Link 4</a></li>
+          </ul>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Connect</h5>
+          <ul>
+            <li><a class="white-text" href="#!">Link 1</a></li>
+            <li><a class="white-text" href="#!">Link 2</a></li>
+            <li><a class="white-text" href="#!">Link 3</a></li>
+            <li><a class="white-text" href="#!">Link 4</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      Made by <a class="orange-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+      </div>
+    </div>
+  </footer>
 
 
-		$(document).ready(function() {
-			$("#dialog-thanks-close").click(function(){
-				$( "#dialog-thanks" ).dialog('close');
-			});  
-			$("#mc-embedded-subscribe").click(function(){
-				$( "#dialog" ).dialog('close');
-		        $( "#dialog-thanks" ).dialog({			    									
-									        show: 'fade', 
-	    									bgiframe: true,
-                                           	resizable: false,
-                                           	draggable: false,
-                                           	modal: true,
-                                           	width: 'auto',
-                                           	overlay: {
-                                                    opacity: 0.9,
-                                                    background: "black"
-                                                    }//,
-            //                             create: function(event, ui) {
-											 //  $("body").css({ overflow: 'hidden' })
-											 // },
-											 // beforeClose: function(event, ui) {
-											 //  $("body").css({ overflow: 'inherit' })
-											 // }
-			    						});
-		    });  
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
 
-			// setTimeout(function() {
-			// 				    $( function mailchimp() {
-			//     						$( "#dialog" ).dialog({
-			    									
-			// 								        show: 'fade', 
-			//     									bgiframe: true,
-   //                                                 	resizable: false,
-   //                                                 	draggable: false,
-   //                                                 	modal: true,
-   //                                                 	width: 'auto',
-   //                                                 	overlay: {
-   //                                                  	        opacity: 0.9,
-   //                                                          background: "black"
-   //                                                         }//,
-   //                                               //create: function(event, ui) {
-			// 										 //  $("body").css({ overflow: 'hidden' })
-			// 										 // },
-			// 										  //beforeClose: function(event, ui) {
-			// 										   //$("body").css({ overflow: 'inherit' })
-			// 										  //}
-			//     						});
-			// 					});
-			// }, 25000);
-			
-
-			$(function(){
-					var navMain = $("#myNavBar");
-					navMain.on("click", "a", null, function () {
-						navMain.collapse('hide');
-					});
-
-			});
-
-			$(window).scroll( function(){
-
-			        /* Check the location of each desired element */
-			        $('.process-element').each( function(i){
-			            var bottom_of_object = $(this).offset().top + $(this).outerHeight();
-			            var bottom_of_window = $(window).scrollTop() + $(window).height();
-
-			            /* If the object is completely visible in the window, fade it it */
-			            if( bottom_of_window > bottom_of_object ){
-			                $(this).animate({'opacity':'1'},500);
-			            }
-			        });
-
-							/* Check the location of each desired element */
-			        $('.contact-element').each( function(i){
-			            var bottom_of_object = $(this).offset().top + $(this).outerHeight();
-			            var bottom_of_window = $(window).scrollTop() + $(window).height();
-
-			            /* If the object is completely visible in the window, fade it it */
-			            if( bottom_of_window > bottom_of_object ){
-			                $(this).delay(100 * i).animate({'opacity':'1'},1);
-			            }
-			        });
-
-			    });
-
-		});
-	</script>
-<!-- 	<script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us15.list-manage.com","uuid":"ea46ce6ce9f54717744b5476f","lid":"421214635e"}) })</script> -->
-	<script type="text/javascript" src="js/portfolio-detail.js"></script>
-<!-- //here ends scrolling icon -->
-</body>
+  </body>
 </html>

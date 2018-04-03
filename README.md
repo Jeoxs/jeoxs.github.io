@@ -1,1 +1,0 @@
-Página Oficial de José Aponte para el público en la red
